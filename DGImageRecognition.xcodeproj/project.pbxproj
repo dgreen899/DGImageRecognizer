@@ -12,6 +12,7 @@
 		725B0BFA1F32E14700470575 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 725B0BF81F32E14700470575 /* Main.storyboard */; };
 		725B0BFC1F32E14700470575 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 725B0BFB1F32E14700470575 /* Assets.xcassets */; };
 		725B0BFF1F32E14700470575 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 725B0BFD1F32E14700470575 /* LaunchScreen.storyboard */; };
+		725B0C071F32E89900470575 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 725B0C061F32E85A00470575 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		725B0BFB1F32E14700470575 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		725B0BFE1F32E14700470575 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		725B0C001F32E14700470575 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		725B0C061F32E85A00470575 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		725B0BF31F32E14600470575 /* DGImageRecognition */ = {
 			isa = PBXGroup;
 			children = (
+				725B0C061F32E85A00470575 /* Inceptionv3.mlmodel */,
 				725B0BF41F32E14600470575 /* AppDelegate.swift */,
 				725B0BF61F32E14600470575 /* ViewController.swift */,
 				725B0BF81F32E14700470575 /* Main.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				725B0BF71F32E14600470575 /* ViewController.swift in Sources */,
+				725B0C071F32E89900470575 /* Inceptionv3.mlmodel in Sources */,
 				725B0BF51F32E14600470575 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
